@@ -35,9 +35,3 @@ Each person has a balance — the total amount they have paid. The app calculate
 - Jest
 
 ---
-
-## Running Tests
-```bash
-npm install
-npm test
-```
