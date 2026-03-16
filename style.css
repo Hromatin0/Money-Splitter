@@ -2,8 +2,6 @@
 :root {
   --bg:         #f0f2f7;
   --surface:    #ffffff;
-  --card-bg:    #ffffff;
-  --list-bg:    #f5f7fb;
   --input-bg:   #ffffff;
   --border:     #e2e6ef;
   --text:       #111827;
@@ -43,8 +41,6 @@
 [data-theme="dark"] {
   --bg:         #0d1117;
   --surface:    #161b22;
-  --card-bg:    #161b22;
-  --list-bg:    #0d1117;
   --input-bg:   #0d1117;
   --border:     #30363d;
   --text:       #e6edf3;
@@ -189,16 +185,12 @@ img {
   height: var(--input-h);
 }
 
-.section-label, .section-label2 {
+.section-label {
   font-size: var(--fs-lg);
   font-weight: bold;
   letter-spacing: 0.08em;
   color: var(--muted);
   margin-bottom: 7px;
-}
-
-.section-label2 {
-  margin-top: 10px;
 }
 
 .scroll-area {
@@ -278,7 +270,7 @@ ul {
   justify-content: center;
 }
 
-.expenses-list li, .payments-list li {
+.expenses-list li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -326,12 +318,6 @@ ul {
 }
 
 
-.debtsBox ul li {
-  display: flex;
-  flex-direction: column;
-}
-
-
 li .time {
   display: flex;
   justify-content: space-between;
@@ -342,7 +328,7 @@ li .items span {
   font-weight: bold;
 }
 
-.people-list li:last-child, .expenses-list li:last-child, .payments-list li  {
+.people-list li:last-child, .expenses-list li:last-child {
   border-bottom: none;
 }
 
