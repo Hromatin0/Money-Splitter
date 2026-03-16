@@ -35,3 +35,7 @@ Each person has a balance — the total amount they have paid. The app calculate
 - Jest
 
 ---
+
+## Live Demo
+
+https://money-splitter-three.vercel.app
